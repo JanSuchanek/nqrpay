@@ -1,0 +1,9 @@
+{
+    "name": "jansuchanek/nqrpay",
+    "description": "Czech QR Platba (SPD) — QR code payment generator for Czech/Slovak banking apps",
+    "type": "library",
+    "license": "MIT",
+    "require": {"php": ">=8.1", "endroid/qr-code": "^5.0|^6.0"},
+    "require-dev": {"nette/tester": "^2.6"},
+    "autoload": {"psr-4": {"NQrPay\\": "src/"}}
+}
