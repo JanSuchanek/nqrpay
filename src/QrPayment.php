@@ -115,7 +115,7 @@ class QrPayment
 	 */
 	public static function extractVariableSymbol(string $orderNumber): string
 	{
-		return preg_replace('/[^0-9]/', '', $orderNumber);
+		return preg_replace('/[^0-9]/', '', $orderNumber) ?? '';
 	}
 
 
